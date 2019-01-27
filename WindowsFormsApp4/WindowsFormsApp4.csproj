@@ -52,10 +52,19 @@
     <Compile Include="Instrument.Designer.cs">
       <DependentUpon>Instrument.cs</DependentUpon>
     </Compile>
+    <Compile Include="InstrumentQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InstrumentQuery.Designer.cs">
+      <DependentUpon>InstrumentQuery.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Instrument.resx">
       <DependentUpon>Instrument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InstrumentQuery.resx">
+      <DependentUpon>InstrumentQuery.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
